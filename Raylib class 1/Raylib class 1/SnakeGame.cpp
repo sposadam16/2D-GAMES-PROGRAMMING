@@ -39,6 +39,20 @@ void SnakeGame::Update()
     frameCount++;
 
 
+    if (gameOver)
+    {
+        Interaction(); 
+        return;
+    }
+
+  
+    if (gamePause)
+    {
+        Interaction(); 
+        return;
+    }
+
+ 
     if (!aiMode)
     {
         Interaction();
@@ -47,6 +61,7 @@ void SnakeGame::Update()
     {
         UpdateAI();
     }
+
 
     if (frameCount % 20 == 0)//3movs x sec
     {

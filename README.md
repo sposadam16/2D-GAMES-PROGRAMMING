@@ -7,3 +7,4 @@ Features:
 - Special fruit
 - Temporary AI mode
 - Restart system
+![Gameplay](SnakeGif.gif)

@@ -1,2 +1,9 @@
 # 2D-GAMES-PROGRAMMING
-SnakeGame
+Snake game developed in C++ using Raylib.
+
+Features:
+- Score system
+- Self collision
+- Special fruit
+- Temporary AI mode
+- Restart system

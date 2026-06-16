@@ -5,6 +5,7 @@ Features:
 - Score system
 - Self collision
 - Special fruit
-- Temporary AI mode
+- AI mode
 - Restart system
+- 
 ![Gameplay](SnakeGif.gif)
